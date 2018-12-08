@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Gameoflife
 {
-    class cell
+    class Cell
     {
-        Boolean isalive;
-        Boolean willbealive;
+        private Boolean isalive;
+        private Boolean willbealive;
 
-        public cell()
+        public Cell()
         {
             isalive = false;
             willbealive = false;
