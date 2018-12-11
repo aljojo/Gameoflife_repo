@@ -26,5 +26,11 @@ namespace Gameoflife
         {
             willbealive = yes_set_to_alive;
         }
+
+        public void update_cell_status()
+        {
+            isalive = willbealive;
+            willbealive = false;
+        }
     }
 }
